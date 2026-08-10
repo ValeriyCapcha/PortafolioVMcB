@@ -34,11 +34,17 @@ const descripcionesModales = {
         "Se crearon modales reutilizables adaptables a las funciones de cada página."
     ],
     "modal-proyecto2": [
+        "El sistema usa el método de árboles de decisión para estimar la demanda de alumnos a partir de datos históricos como la cantidad de alumnos, la probabilidad de avance entre ciclos, porcentaje de abandono universitario, entre otros factores.",
+        "Uso de algoritmos genéticos para la generación y optimización de secciones considerando las reglas del negocio, disponibilidad de docentes y aulas. La función de fitness penaliza las soluciones que presentan conflictos, especialmente cruces de cursos, aulas o docentes, así como mantener la posibilidad de llevar todos los cursos del ciclo.",
+        "Como etapa previa a la optimización genética, se incorporan técnicas de Modelado de Espacio de Estados, Búsqueda A* y Planificación de Orden Parcial (POP). El problema se representa mediante estados, acciones, precondiciones y efectos, permitiendo identificar asignaciones válidas y descartar aquellas que generan conflictos directos.",
+        "Se incluyen módulos adicionales de consulta que permiten visualizar información relacionada con alumnos, docentes y su disponibilidad, aulas, cursos y mallas curriculares, proporcionando información de apoyo para analizar los datos utilizados durante la generación de los horarios."
+        /*
         "Desarrollo de un sistema de portal docente para una Institución Educativa, se consideraron los roles de director, docente, tutor y auxiliar.",
         "Se uso FullCalendar para mostrar los días de clases para el personal.",
         "Se desarrollo un módulo para el manejo de archivos PDF para la gestión de exámenes.",
         "Se uso FullCalendar para mostrar la gestión de asistencia en la vista del auxiliar.",
         "Se hizo uso de Google Scripts para el envio simple de correos."
+        */
     ],
     "modal-proyecto3": [
         "Tablero Kanban desarrollado en C#, maneja distintos campos para las tareas.",
